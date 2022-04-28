@@ -15,5 +15,5 @@ app.use(express.json())
 app.use('/directory', routes);
 
 app.listen(CONFIG.port, () => {
-    console.log("Server up on " + CONFIG.port)
+    console.log("Server running on " + CONFIG.port)
 })
